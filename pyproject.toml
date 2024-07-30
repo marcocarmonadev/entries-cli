@@ -19,4 +19,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-entries = "source.frameworks_and_devices.cli:app"
+entries-cli = "source.frameworks_and_devices.cli:app"
